@@ -1,0 +1,140 @@
+body{
+	height: 1000px;
+	width: 1330px;
+    background-color: #dfe6e9;
+	background-size: cover;
+	background-position: center;
+	opacity: 100%;
+	
+
+}
+.links{
+	
+	width: 83%;
+	height: 20%;
+	background-color: #dfe6e9;
+	position: relative;
+	top: -104px;
+	left: 206px;
+	padding: 3px 10px;
+}
+
+
+.links ul{
+ text-align: center;
+}
+
+.links ul li{
+ list-style: none;
+ display: inline-block;
+}
+
+.links ul li a{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+padding: 142px 35px 40px 15px;
+margin: 0px 70px 10px 20px;
+ transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+}
+
+.links ul li a:hover{
+background-color:#3b6c7780;
+color: black;
+padding: 25px;
+height: 20px;
+transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+
+}
+
+
+
+
+
+
+p{
+	font: sans-serif;
+	position: relative;
+	top:-338px;
+	font-size: 22px;
+	color: black;
+	padding-top: 100px;
+	padding-left: 459px;
+	padding-right: 20px;
+}
+
+h1{
+	position: relative;
+	top:-230px;
+    left:650px;
+    right: 500px;
+}
+
+.box1{
+	background-color:#fff;
+	position: relative;
+	top:-90px;
+    left:-2px;
+    right: 500px;
+	height:550px;
+	width:1337px;
+}
+.box1 img{
+	height:550px;
+	width:1337px;
+
+}
+
+.Logo1{
+	height:100px;
+	width:200px;
+	position: relative;
+	top: 100px;
+	left:0px;
+}
+.Logo1 img{
+	height: 206px;
+	width: 206px;
+	position: relative;
+	top: -104px;
+	left:-4px;
+	opacity: 70%;
+}
+
+ footer{
+	background: #dfe6e9;
+	margin-top: 20px;
+}
+footer img{
+	max-width: 5%;
+	padding: 40px;
+	position: relative;
+	left: 430px;
+}
+footer img:hover{
+	background-color: #626262;
+	transition: 1.4s;
+}
+.intro{
+	height: 300px;
+	width: 100%;
+	background-color: #3b6c7780;
+}
+.intro p{
+	position: relative;
+	top: -90px;
+	left: -185px;
+	font-size: 26px;
+	font-family: 'Arial';
+}
+.intro h2{
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 40px;
+	padding-top: 10px;
+}

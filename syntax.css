@@ -1,0 +1,179 @@
+body{
+	height: 1000px;
+	width: 1330px;
+    background-color: #dfe6e9;
+	background-size: cover;
+	background-position: center;
+	opacity: 100%;
+	
+
+}
+.links{
+	
+	width: 83%;
+	height: 20%;
+	background-color: #dfe6e9;
+	position: relative;
+	top: -104px;
+	left: 206px;
+	padding: 3px 10px;
+}
+
+
+.links ul{
+ text-align: center;
+}
+
+.links ul li{
+ list-style: none;
+ display: inline-block;
+}
+
+.links ul li a{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+padding: 142px 35px 40px 15px;
+margin: 0px 70px 10px 20px;
+ transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+}
+
+.links ul li a:hover{
+background-color:#3b6c7780;
+color: black;
+padding: 25px;
+height: 20px;
+transition: all cubic-bezier(.33,-0.66,.27,1.35) 0.9s;
+
+}
+
+.Logo1{
+	height:100px;
+	width:200px;
+	position: relative;
+	top: 100px;
+	left:0px;
+}
+.Logo1 img{
+	height: 206px;
+	width: 206px;
+	position: relative;
+	top: -104px;
+	left:-4px;
+	opacity: 70%;
+}
+
+
+.product-list{
+	background-color: #dfe6e9;
+	padding: 3em;
+}
+.product-list p{
+	font-family: 'Arial';
+	text-align: center;
+}
+.product-list .card1{
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0px 10px 5px #b2bec3;
+	text-align: center;
+	font-family: 'Arial';
+}
+
+.product-list h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Arial';
+}
+.card1{
+	max-width: 40%;
+	transition: 2s;
+}
+
+.card1 .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.card1 img{
+	max-width: 100%;
+}
+
+.card1 .text{
+	text-align: left;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+.buy-button{
+	background-color: #f9ca24;
+	border: none;
+	padding: 1em;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.buy-button:hover {
+	box-shadow:0px 5px 5px #b2bec3 ;
+	transition: 0.5s;
+}
+
+
+.card2{
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0px 10px 5px #b2bec3;
+	text-align: center;
+	font-family: 'Arial';
+	position: absolute;
+	top: 508px;
+	left: 670px;
+}
+.card2{
+	max-width: 40%;
+	transition: 2s;
+}
+
+.card2 .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.card2 img{
+	max-width: 52%;
+}
+
+.card2 .text{
+	text-align: left;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+.buy-button{
+	background-color: #f9ca24;
+	border: none;
+	padding: 1em;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.buy-button:hover {
+	box-shadow:0px 5px 5px #b2bec3 ;
+	transition: 0.5s;
+}
+
+footer{
+	background: #dfe6e9;
+	margin-top: 20px;
+}
+footer img{
+	max-width: 5%;
+	padding: 40px;
+	position: relative;
+	left: 430px;
+}
+footer img:hover{
+	background-color: #626262;
+	transition: 1.4s;
+}
